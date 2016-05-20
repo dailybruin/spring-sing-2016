@@ -1,4 +1,10 @@
 var onlanding = 1;
+// YT API
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
 
 Handlebars.registerHelper("formatBodyText", function(t) {
 	t = t.trim();
