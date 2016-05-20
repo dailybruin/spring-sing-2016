@@ -15,7 +15,18 @@ function onYouTubeIframeAPIReady() {
 	});
 }
 
+
 $(document).ready(function() {
+	$(window).scroll(function() {
+		if ($(this).scrollTop() == 0) {
+			$("#landing").slideDown(700);
+			$("#landing").children().each(function() {
+				$(this).fadeIn(500);
+			})
+			$("#top-div").hide();
+		}
+	});
+
 
 	$(".video-nav-element").click(function() {
 		if ($(this).hasClass("active"))
@@ -59,7 +70,6 @@ $(document).ready(function() {
 	});
 
 	$("#toptitle").click(function() {
-		console.log("hi");
 		$("#landing").slideDown(700);
 		$("#landing").children().each(function() {
 			$(this).fadeIn(500);
