@@ -2,6 +2,36 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+
+#profile-container h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: 100;
+    font-size: 2.4rem;
+}
+
+#profiles-container {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: rgba(128, 128, 128, 0.35);
+}
+
+.profiles-container h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: 300;
+}
+
+#timeline-container {
+  display: block;
+  text-align: center;
+}
+
+#timeline-graphic {
+  width: 1000px;
+  max-width: 98%;
+  margin: auto;
+}
+
 #landing h1 {
     font-family: Roboto;
     text-transform: uppercase;
@@ -51,8 +81,8 @@ h3.script {
 }
 
 #toptitle h1 {
-  font-family: Roboto;
-  color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: 100;
 }
 
 #dblogo {
@@ -83,7 +113,6 @@ h3.script {
 #top-div {
   height: 100%;
   display: none;
-  background-color: black;
 }
 
 .story-title {
