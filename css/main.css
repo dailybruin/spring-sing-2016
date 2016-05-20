@@ -4,6 +4,9 @@
 
 #player {
   margin-top: 1rem;
+  max-width: 800px;
+  margin: 1rem auto auto auto;
+  display: block;
 }
 
 .general-container {
