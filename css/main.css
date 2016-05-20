@@ -2,6 +2,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+#player {
+  margin-top: 1rem;
+}
+
 .general-container {
   border-radius: 1rem;
   padding: 1rem;
@@ -20,6 +24,11 @@
   max-width: 600px;
   margin: auto;
 }
+
+#james li.active {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
 .video-nav-element {
   background-color: white;
   padding: 0.5rem !important;
